@@ -80,7 +80,24 @@ home = QgsRectangle(cx - half, cy - half, cx + half, cy + half)
 project.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(home, crs))
 print(f'home view centered on {CENTER_LAT}, {CENTER_LON} ({VIEW_SPAN_M} m span)')
 assert project.write(OUT)
-print('wrote', OUT)
+
+# QField (and desktop QGIS) restore the saved map-canvas extent, which
+# headless writes omit — inject it so the project opens on the home view
+canvas = (
+    '<mapcanvas annotationsVisible="1" name="theMapCanvas">\n'
+    '    <units>meters</units>\n'
+    f'    <extent><xmin>{home.xMinimum()}</xmin><ymin>{home.yMinimum()}</ymin>'
+    f'<xmax>{home.xMaximum()}</xmax><ymax>{home.yMaximum()}</ymax></extent>\n'
+    '    <rotation>0</rotation>\n'
+    '    <destinationsrs><spatialrefsys><authid>EPSG:3857</authid></spatialrefsys></destinationsrs>\n'
+    '    <rendermaptile>0</rendermaptile>\n'
+    '  </mapcanvas>\n  '
+)
+xml = open(OUT).read()
+assert '<mapcanvas' not in xml and '<projectCrs>' in xml
+xml = xml.replace('<projectCrs>', canvas + '<projectCrs>', 1)
+open(OUT, 'w').write(xml)
+print('wrote', OUT, '(+mapcanvas extent)')
 
 project.clear()
 assert project.read(OUT)
