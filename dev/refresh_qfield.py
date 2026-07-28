@@ -1,0 +1,85 @@
+"""Regenerate qfield/mpg_ranch_imagery_qfield.qgs from captures.json.
+
+Same XYZ layers as the desktop project; opens centered on the default-on
+capture's footprint. After running: re-zip qfield/ and commit (see README).
+"""
+
+import json
+import math
+import os
+import struct
+import urllib.request
+
+from qgis.core import (
+    QgsApplication,
+    QgsCoordinateReferenceSystem,
+    QgsProject,
+    QgsRasterLayer,
+    QgsRectangle,
+    QgsReferencedRectangle,
+)
+
+CAPTURES_JSON = '/Users/kdoherty/front_country_surveys/viewer_app/dist/captures.json'
+OUT = '/Users/kdoherty/mpg_xyz_tiles/qfield/mpg_ranch_imagery_qfield.qgs'
+TILE_BASE = 'https://tiles-251613763089.us-west1.run.app'
+BUCKET_PREFIX = 'https://storage.googleapis.com/mpg-aerial-survey/'
+DEFAULT_ON = '2025-summer'
+MAX_ZOOM = {'Drone': 21, 'Fixed-Wing': 19}
+MERC = 20037508.342789244
+
+
+def layer_name(c):
+    season = c.get('season') or ('fall' if int(c['date'][5:7]) >= 9 else 'summer')
+    return f"{c['date']} {season.capitalize()} {c['source']}"
+
+
+def xyz_uri(c):
+    tileset = c['pmtiles'].removeprefix(BUCKET_PREFIX).removesuffix('.pmtiles')
+    url = f'{TILE_BASE}/{tileset}/{{z}}/{{x}}/{{y}}.webp'.replace('{', '%7B').replace('}', '%7D')
+    return f"type=xyz&url={url}&zmin=8&zmax={MAX_ZOOM.get(c['source'], 19)}&tilePixelRatio=2"
+
+
+def header_bounds_3857(pmtiles_url):
+    req = urllib.request.Request(pmtiles_url, headers={'Range': 'bytes=0-126'})
+    raw = urllib.request.urlopen(req, timeout=30).read()
+    lon0, lat0, lon1, lat1 = (v / 1e7 for v in struct.unpack('<iiii', raw[102:118]))
+    to_x = lambda lon: lon / 180.0 * MERC
+    to_y = lambda lat: math.log(math.tan((90 + lat) * math.pi / 360)) / math.pi * MERC
+    return QgsRectangle(to_x(lon0), to_y(lat0), to_x(lon1), to_y(lat1))
+
+
+QgsApplication.setPrefixPath('/Applications/QGIS-final-4_0_1.app/Contents/MacOS', True)
+QgsApplication.setPluginPath('/Applications/QGIS-final-4_0_1.app/Contents/PlugIns/qgis')
+QgsApplication.setPkgDataPath('/Applications/QGIS-final-4_0_1.app/Contents/Resources/qgis')
+app = QgsApplication([], False)
+app.initQgis()
+
+captures = sorted(json.load(open(CAPTURES_JSON)), key=lambda c: c['date'], reverse=True)
+
+project = QgsProject.instance()
+crs = QgsCoordinateReferenceSystem('EPSG:3857')
+project.setCrs(crs)
+project.setTitle('MPG Ranch aerial imagery — QField')
+project.writeEntry('Paths', '/Absolute', False)
+root = project.layerTreeRoot()
+
+home = None
+for c in reversed(captures):
+    layer = QgsRasterLayer(xyz_uri(c), layer_name(c), 'wms')
+    assert layer.isValid(), layer_name(c)
+    project.addMapLayer(layer)
+    root.findLayer(layer.id()).setItemVisibilityChecked(c['id'] == DEFAULT_ON)
+    if c['id'] == DEFAULT_ON:
+        home = header_bounds_3857(c['pmtiles'])
+
+project.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(home, crs))
+assert project.write(OUT)
+print('wrote', OUT)
+
+project.clear()
+assert project.read(OUT)
+root = project.layerTreeRoot()
+for lyr in root.layerOrder():
+    mark = 'ON ' if root.findLayer(lyr.id()).itemVisibilityChecked() else 'off'
+    print(f'  [{mark}] {lyr.name()}  valid={lyr.isValid()}')
+os._exit(0)

@@ -11,26 +11,19 @@ no installs: download a project file and open it.
 | **QGIS (desktop)** | [mpg_ranch_imagery.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/mpg_ranch_imagery.qgs) — right-click → save, open in QGIS |
 | **QField (phone)** | [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) — import instructions below |
 
-## QField setup — iPhone
+## QField setup (iPhone & Android)
 
-1. Download [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) in Safari.
-2. Open **QField** → **Open local file** → tap the **⋮ / +** button → **Import project from ZIP** → pick the zip from Downloads (QField unzips it itself).
-3. Open `mpg_ranch_imagery_qfield.qgs` under **Imported projects**.
-
-If the import menu is missing: extract the zip in the **Files** app, move the folder to **On My iPhone → QField** (launch QField once first if that folder doesn't exist), then QField → Open local file.
-
-## QField setup — Android
-
-1. Download [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) in the browser.
-2. Open **QField** → **Open local file** → **⋮ menu** (top right) → **Import project from ZIP** → pick the zip from Downloads.
-3. Open `mpg_ranch_imagery_qfield.qgs` under **Imported projects**.
+1. Download [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) on the phone.
+2. In QField: **Local projects and datasets** → **hamburger menu (⋯)** →
+   **Import Project From Zip** → select **mpg_ranch_imagery_qfield.zip** →
+   open **mpg_ranch_imagery_qfield**.
 
 ## Using the projects
 
-- The map opens centered on the ranch. Only **2025-07-01 Summer Drone** is on
-  by default (QGIS) — toggle other captures in the layers panel.
-- **Zoom to layer** only works on the **Coverage footprints** layer (QField) —
-  XYZ imagery layers claim the whole world as their extent.
+- The map opens centered on the imagery. Only **2025-07-01 Summer Drone** is
+  on by default — toggle other captures in the layers panel.
+- Don't use **Zoom to layer** on imagery layers — XYZ layers claim the whole
+  world as their extent, so it zooms out to a blank planet.
 - Streaming only: imagery needs internet. First view of a cold area takes a
   few seconds; pans and revisits are fast.
 
@@ -51,8 +44,9 @@ tile resolution **512 px** (`tilePixelRatio=2`).
 
 ## Maintenance
 
-- New season published → `dev/refresh_from_captures.py` regenerates the QGIS
-  project from the viewer app's `captures.json`; re-zip `qfield/` and commit.
+- New season published → `dev/refresh_from_captures.py` (QGIS project) and
+  `dev/refresh_qfield.py` (QField project) regenerate from the viewer app's
+  `captures.json`; re-zip `qfield/` and commit.
 - `archive_plugin/` holds the retired `pmtiles_raster` QGIS plugin (a native
   raster-PMTiles reader; replaced by this XYZ approach). Its README documents
   the QGIS 4 SIP pitfalls for posterity.
