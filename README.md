@@ -8,7 +8,7 @@ no installs: download a project file and open it.
 
 | Platform | File |
 |---|---|
-| **QGIS (desktop)** | [mpg_ranch_imagery.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/mpg_ranch_imagery.qgs) — right-click → save, open in QGIS |
+| **QGIS (desktop)** | [mpg_ranch_imagery.qgs](https://github.com/mosscoder/mpg-xyz-tiles/releases/latest/download/mpg_ranch_imagery.qgs) — click to download, then open in QGIS |
 | **QField (phone)** | [mpg_ranch_qfield.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_qfield.qgs) — import instructions below |
 
 ## QField setup (iPhone & Android)
