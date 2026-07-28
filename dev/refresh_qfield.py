@@ -27,6 +27,10 @@ DEFAULT_ON = '2025-summer'
 MAX_ZOOM = {'Drone': 21, 'Fixed-Wing': 19}
 MERC = 20037508.342789244
 
+# opening view: centered on the ranch, spanning the whole property
+CENTER_LON, CENTER_LAT = -113.9760, 46.7240
+VIEW_SPAN_M = 18000
+
 
 def layer_name(c):
     season = c.get('season') or ('fall' if int(c['date'][5:7]) >= 9 else 'summer')
@@ -63,16 +67,18 @@ project.setTitle('MPG Ranch aerial imagery — QField')
 project.writeEntry('Paths', '/Absolute', False)
 root = project.layerTreeRoot()
 
-home = None
 for c in reversed(captures):
     layer = QgsRasterLayer(xyz_uri(c), layer_name(c), 'wms')
     assert layer.isValid(), layer_name(c)
     project.addMapLayer(layer)
     root.findLayer(layer.id()).setItemVisibilityChecked(c['id'] == DEFAULT_ON)
-    if c['id'] == DEFAULT_ON:
-        home = header_bounds_3857(c['pmtiles'])
 
+cx = CENTER_LON / 180.0 * MERC
+cy = math.log(math.tan((90 + CENTER_LAT) * math.pi / 360)) / math.pi * MERC
+half = VIEW_SPAN_M / 2
+home = QgsRectangle(cx - half, cy - half, cx + half, cy + half)
 project.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(home, crs))
+print(f'home view centered on {CENTER_LAT}, {CENTER_LON} ({VIEW_SPAN_M} m span)')
 assert project.write(OUT)
 print('wrote', OUT)
 

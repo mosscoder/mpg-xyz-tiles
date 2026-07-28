@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="MPG Ranch aerial imagery — QField" saveDateTime="2026-07-28T11:28:48" saveUser="kdoherty" saveUserFull="Kyle Doherty" version="4.0.1-Norrköping">
+<qgis projectname="MPG Ranch aerial imagery — QField" saveDateTime="2026-07-28T11:34:52" saveUser="kdoherty" saveUserFull="Kyle Doherty" version="4.0.1-Norrköping">
   <homePath path=""/>
   <title>MPG Ranch aerial imagery — QField</title>
   <transaction mode="Disabled"/>
@@ -35,103 +35,103 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2025_10_08_Fall_Drone_fc937e3d_4ad2_4dcc_b1ba_0e24718da62f" legend_exp="" legend_split_behavior="0" name="2025-10-08 Fall Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/fall/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2025_10_08_Fall_Drone_6e1a6a95_aa5c_4640_a154_7ea54f3ad083" legend_exp="" legend_split_behavior="0" name="2025-10-08 Fall Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/fall/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="2025_07_01_Summer_Drone_ee1be274_f733_42c6_b156_d407573a5a14" legend_exp="" legend_split_behavior="0" name="2025-07-01 Summer Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="2025_07_01_Summer_Drone_8962f514_5d24_4e0e_88df_dc27756948a4" legend_exp="" legend_split_behavior="0" name="2025-07-01 Summer Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2025_05_02_Spring_Drone_83b1a9c3_15dc_4c85_8d3b_46455da25c49" legend_exp="" legend_split_behavior="0" name="2025-05-02 Spring Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/spring/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2025_05_02_Spring_Drone_efc5bf48_fbfc_42b5_8d7b_f0b0845e1c90" legend_exp="" legend_split_behavior="0" name="2025-05-02 Spring Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/spring/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2024_08_01_Summer_Fixed_Wing_591365d8_a302_49bb_9585_cd3d60c7f081" legend_exp="" legend_split_behavior="0" name="2024-08-01 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2024_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2024_08_01_Summer_Fixed_Wing_4090c6fb_014d_47d2_a525_6d57c0b51562" legend_exp="" legend_split_behavior="0" name="2024-08-01 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2024_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2024_06_25_Summer_Drone_5479ac11_23f8_4ccc_80f3_0ea13686904c" legend_exp="" legend_split_behavior="0" name="2024-06-25 Summer Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2024_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2024_06_25_Summer_Drone_39a5672a_1a12_4c70_86ca_7a373270a829" legend_exp="" legend_split_behavior="0" name="2024-06-25 Summer Drone" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2024_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2023_07_06_Summer_Fixed_Wing_ff463457_5b34_4fb9_8381_9e9681d5bb60" legend_exp="" legend_split_behavior="0" name="2023-07-06 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2023_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2023_07_06_Summer_Fixed_Wing_093d3ac5_b353_4e10_84f9_eb0fcb0e7432" legend_exp="" legend_split_behavior="0" name="2023-07-06 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2023_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2022_07_03_Summer_Fixed_Wing_67e26912_9c58_48ee_a263_d6e4f6628f38" legend_exp="" legend_split_behavior="0" name="2022-07-03 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2022_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2022_07_03_Summer_Fixed_Wing_fcfb8281_4162_407f_8082_d5e599917f34" legend_exp="" legend_split_behavior="0" name="2022-07-03 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2022_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2021_06_29_Summer_Fixed_Wing_dead9c61_7feb_4f9b_bbb8_3312699455ff" legend_exp="" legend_split_behavior="0" name="2021-06-29 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2021_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2021_06_29_Summer_Fixed_Wing_5da804d9_adab_4591_9ba2_db3ab1da2ca1" legend_exp="" legend_split_behavior="0" name="2021-06-29 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2021_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2020_06_22_Summer_Fixed_Wing_e48e953d_ecc0_4d5a_836e_fee8cb025310" legend_exp="" legend_split_behavior="0" name="2020-06-22 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2020_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2020_06_22_Summer_Fixed_Wing_b480ace2_04d9_4213_ad0d_7676284593b8" legend_exp="" legend_split_behavior="0" name="2020-06-22 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2020_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2018_06_26_Summer_Fixed_Wing_7f660e4f_242f_42fb_96d8_ae0b0aa73692" legend_exp="" legend_split_behavior="0" name="2018-06-26 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2018_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2018_06_26_Summer_Fixed_Wing_2a66c070_d00c_4a09_98ae_8dd844cddbd0" legend_exp="" legend_split_behavior="0" name="2018-06-26 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2018_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2017_07_17_Summer_Fixed_Wing_d1aac99d_ed15_4d47_9efd_b85bf97f4e6a" legend_exp="" legend_split_behavior="0" name="2017-07-17 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2017_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2017_07_17_Summer_Fixed_Wing_542bcf11_e43e_42dc_85d5_623aa488a934" legend_exp="" legend_split_behavior="0" name="2017-07-17 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2017_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2016_06_22_Summer_Fixed_Wing_87ec1ba3_a8b6_49a9_ba6d_82d0aa4a7fb2" legend_exp="" legend_split_behavior="0" name="2016-06-22 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2016_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2016_06_22_Summer_Fixed_Wing_2c6a0324_ad7b_43cc_bcd6_3ab8b0807f17" legend_exp="" legend_split_behavior="0" name="2016-06-22 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2016_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2015_06_26_Summer_Fixed_Wing_c7c8bd31_3d60_4b9e_8eb2_741b1898d5f5" legend_exp="" legend_split_behavior="0" name="2015-06-26 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2015_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2015_06_26_Summer_Fixed_Wing_729021ba_37f0_4994_9be0_58ab73e93537" legend_exp="" legend_split_behavior="0" name="2015-06-26 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2015_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2014_07_25_Summer_Fixed_Wing_4b3cf4f7_4996_447f_b6a9_48c58c8eb5c7" legend_exp="" legend_split_behavior="0" name="2014-07-25 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2014_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2014_07_25_Summer_Fixed_Wing_0e9813e6_88a6_4246_b993_92cbfbb9edff" legend_exp="" legend_split_behavior="0" name="2014-07-25 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2014_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2013_07_15_Summer_Fixed_Wing_988e2a7d_d36b_4d00_b02c_b4e83a75c0b1" legend_exp="" legend_split_behavior="0" name="2013-07-15 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2013_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2013_07_15_Summer_Fixed_Wing_6ab3f70f_11a8_4434_ae59_8b3d8523a0da" legend_exp="" legend_split_behavior="0" name="2013-07-15 Summer Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2013_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2011_09_03_Fall_Fixed_Wing_7680dbfe_2b89_4cdd_8b06_19e39d14f47b" legend_exp="" legend_split_behavior="0" name="2011-09-03 Fall Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2011_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="2011_09_03_Fall_Fixed_Wing_3e737e89_f0a1_46e9_8ba4_7ba43c29a324" legend_exp="" legend_split_behavior="0" name="2011-09-03 Fall Fixed-Wing" patch_size="-1,-1" providerKey="wms" source="type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2011_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
     <custom-order enabled="0">
-      <item>2011_09_03_Fall_Fixed_Wing_7680dbfe_2b89_4cdd_8b06_19e39d14f47b</item>
-      <item>2013_07_15_Summer_Fixed_Wing_988e2a7d_d36b_4d00_b02c_b4e83a75c0b1</item>
-      <item>2014_07_25_Summer_Fixed_Wing_4b3cf4f7_4996_447f_b6a9_48c58c8eb5c7</item>
-      <item>2015_06_26_Summer_Fixed_Wing_c7c8bd31_3d60_4b9e_8eb2_741b1898d5f5</item>
-      <item>2016_06_22_Summer_Fixed_Wing_87ec1ba3_a8b6_49a9_ba6d_82d0aa4a7fb2</item>
-      <item>2017_07_17_Summer_Fixed_Wing_d1aac99d_ed15_4d47_9efd_b85bf97f4e6a</item>
-      <item>2018_06_26_Summer_Fixed_Wing_7f660e4f_242f_42fb_96d8_ae0b0aa73692</item>
-      <item>2020_06_22_Summer_Fixed_Wing_e48e953d_ecc0_4d5a_836e_fee8cb025310</item>
-      <item>2021_06_29_Summer_Fixed_Wing_dead9c61_7feb_4f9b_bbb8_3312699455ff</item>
-      <item>2022_07_03_Summer_Fixed_Wing_67e26912_9c58_48ee_a263_d6e4f6628f38</item>
-      <item>2023_07_06_Summer_Fixed_Wing_ff463457_5b34_4fb9_8381_9e9681d5bb60</item>
-      <item>2024_06_25_Summer_Drone_5479ac11_23f8_4ccc_80f3_0ea13686904c</item>
-      <item>2024_08_01_Summer_Fixed_Wing_591365d8_a302_49bb_9585_cd3d60c7f081</item>
-      <item>2025_05_02_Spring_Drone_83b1a9c3_15dc_4c85_8d3b_46455da25c49</item>
-      <item>2025_07_01_Summer_Drone_ee1be274_f733_42c6_b156_d407573a5a14</item>
-      <item>2025_10_08_Fall_Drone_fc937e3d_4ad2_4dcc_b1ba_0e24718da62f</item>
+      <item>2011_09_03_Fall_Fixed_Wing_3e737e89_f0a1_46e9_8ba4_7ba43c29a324</item>
+      <item>2013_07_15_Summer_Fixed_Wing_6ab3f70f_11a8_4434_ae59_8b3d8523a0da</item>
+      <item>2014_07_25_Summer_Fixed_Wing_0e9813e6_88a6_4246_b993_92cbfbb9edff</item>
+      <item>2015_06_26_Summer_Fixed_Wing_729021ba_37f0_4994_9be0_58ab73e93537</item>
+      <item>2016_06_22_Summer_Fixed_Wing_2c6a0324_ad7b_43cc_bcd6_3ab8b0807f17</item>
+      <item>2017_07_17_Summer_Fixed_Wing_542bcf11_e43e_42dc_85d5_623aa488a934</item>
+      <item>2018_06_26_Summer_Fixed_Wing_2a66c070_d00c_4a09_98ae_8dd844cddbd0</item>
+      <item>2020_06_22_Summer_Fixed_Wing_b480ace2_04d9_4213_ad0d_7676284593b8</item>
+      <item>2021_06_29_Summer_Fixed_Wing_5da804d9_adab_4591_9ba2_db3ab1da2ca1</item>
+      <item>2022_07_03_Summer_Fixed_Wing_fcfb8281_4162_407f_8082_d5e599917f34</item>
+      <item>2023_07_06_Summer_Fixed_Wing_093d3ac5_b353_4e10_84f9_eb0fcb0e7432</item>
+      <item>2024_06_25_Summer_Drone_39a5672a_1a12_4c70_86ca_7a373270a829</item>
+      <item>2024_08_01_Summer_Fixed_Wing_4090c6fb_014d_47d2_a525_6d57c0b51562</item>
+      <item>2025_05_02_Spring_Drone_efc5bf48_fbfc_42b5_8d7b_f0b0845e1c90</item>
+      <item>2025_07_01_Summer_Drone_8962f514_5d24_4e0e_88df_dc27756948a4</item>
+      <item>2025_10_08_Fall_Drone_6e1a6a95_aa5c_4640_a154_7ea54f3ad083</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings enabled="0" intersection-snapping="0" maxScale="0" minScale="0" mode="2" scaleDependencyMode="0" self-snapping="0" tolerance="12" type="1" unit="1">
@@ -140,7 +140,7 @@
   <relations/>
   <polymorphicRelations/>
   <main-annotation-layer autoRefreshMode="Disabled" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" layerType="Annotation" legendPlaceholderImage="" maxScale="0" minScale="1e+08" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="annotation">
-    <id>Annotations_0a6ba87a_6dae_4c52_9b2a_6a6e9c0b849d</id>
+    <id>Annotations_3533200f_c687_41ba_a609_a9088d19b50b</id>
     <datasource></datasource>
     <layername>Annotations</layername>
     <srs>
@@ -210,7 +210,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2011_09_03_Fall_Fixed_Wing_7680dbfe_2b89_4cdd_8b06_19e39d14f47b</id>
+      <id>2011_09_03_Fall_Fixed_Wing_3e737e89_f0a1_46e9_8ba4_7ba43c29a324</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2011_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2011-09-03 Fall Fixed-Wing</layername>
       <srs>
@@ -288,7 +288,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{d744cdeb-6896-4e7b-9d7c-a2b9c6b55220}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{f0f192d3-e217-41fb-8847-e597e9d73678}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -300,7 +300,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="190,207,80,255,rgb:0.7450981,0.8117647,0.3137255,1"/>
+                <Option name="line_color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -337,10 +337,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{776a8a2e-7cad-4b38-bc44-fb48a96e651d}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{4948d3c3-5dd9-4e1a-ae75-da81f0b5a84e}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="190,207,80,255,rgb:0.7450981,0.8117647,0.3137255,1"/>
+                <Option name="color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -411,7 +411,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2013_07_15_Summer_Fixed_Wing_988e2a7d_d36b_4d00_b02c_b4e83a75c0b1</id>
+      <id>2013_07_15_Summer_Fixed_Wing_6ab3f70f_11a8_4434_ae59_8b3d8523a0da</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2013_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2013-07-15 Summer Fixed-Wing</layername>
       <srs>
@@ -489,7 +489,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{1d9dedf8-ba6c-49fd-ac73-1403088bd343}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{da1da809-8cb8-4fec-9bdb-94fd111583c1}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -501,7 +501,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="225,89,137,255,rgb:0.8823529,0.3490196,0.5372549,1"/>
+                <Option name="line_color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078432,0.4352941,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -538,10 +538,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{5ea1f230-e1bc-414e-9300-c59f27ac9831}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{084f0455-aec1-43d2-890a-5f5bd1e4f696}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="225,89,137,255,rgb:0.8823529,0.3490196,0.5372549,1"/>
+                <Option name="color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078432,0.4352941,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -612,7 +612,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2014_07_25_Summer_Fixed_Wing_4b3cf4f7_4996_447f_b6a9_48c58c8eb5c7</id>
+      <id>2014_07_25_Summer_Fixed_Wing_0e9813e6_88a6_4246_b993_92cbfbb9edff</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2014_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2014-07-25 Summer Fixed-Wing</layername>
       <srs>
@@ -690,7 +690,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{0cb4d290-85b1-4d34-a7bb-8a6ee08ed677}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{4131213e-65ca-43c3-a893-6ae60603577f}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -702,7 +702,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="229,182,54,255,rgb:0.8980392,0.7137255,0.2117647,1"/>
+                <Option name="line_color" type="QString" value="213,180,60,255,rgb:0.8352941,0.7058824,0.2352941,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -739,10 +739,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{5b0886aa-202c-4cec-b7cf-4ccc3954dc3a}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{8f6103d0-78c8-44a8-9c87-bd538dbe2376}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="229,182,54,255,rgb:0.8980392,0.7137255,0.2117647,1"/>
+                <Option name="color" type="QString" value="213,180,60,255,rgb:0.8352941,0.7058824,0.2352941,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -813,7 +813,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2015_06_26_Summer_Fixed_Wing_c7c8bd31_3d60_4b9e_8eb2_741b1898d5f5</id>
+      <id>2015_06_26_Summer_Fixed_Wing_729021ba_37f0_4994_9be0_58ab73e93537</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2015_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2015-06-26 Summer Fixed-Wing</layername>
       <srs>
@@ -891,7 +891,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{ff36c931-44b9-45c6-86fe-aadb8ab13a9e}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{3d1da4f0-6026-4c2c-a31a-20932910b628}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -903,7 +903,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="196,60,57,255,rgb:0.7686275,0.2352941,0.2235294,1"/>
+                <Option name="line_color" type="QString" value="164,113,88,255,rgb:0.6431373,0.4431373,0.345098,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -940,10 +940,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{a7f62c63-fc21-4b5b-a92e-fa058a9ef647}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{a5832da0-a57c-4356-a3bf-68749baeeae4}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="196,60,57,255,rgb:0.7686275,0.2352941,0.2235294,1"/>
+                <Option name="color" type="QString" value="164,113,88,255,rgb:0.6431373,0.4431373,0.345098,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -1014,7 +1014,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2016_06_22_Summer_Fixed_Wing_87ec1ba3_a8b6_49a9_ba6d_82d0aa4a7fb2</id>
+      <id>2016_06_22_Summer_Fixed_Wing_2c6a0324_ad7b_43cc_bcd6_3ab8b0807f17</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2016_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2016-06-22 Summer Fixed-Wing</layername>
       <srs>
@@ -1092,7 +1092,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{619fa522-e417-4a89-b484-c3b7de305ec2}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{51f86b1d-e696-4c93-a98c-9fbc3d331bce}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -1104,7 +1104,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="190,178,151,255,rgb:0.7450981,0.6980392,0.5921569,1"/>
+                <Option name="line_color" type="QString" value="133,182,111,255,rgb:0.5215687,0.7137255,0.4352941,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -1141,10 +1141,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{aadc3bbc-5250-4642-ab04-34ec42996e59}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{4246d459-9dbf-4570-9aec-bcede45874a2}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="190,178,151,255,rgb:0.7450981,0.6980392,0.5921569,1"/>
+                <Option name="color" type="QString" value="133,182,111,255,rgb:0.5215687,0.7137255,0.4352941,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -1215,7 +1215,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2017_07_17_Summer_Fixed_Wing_d1aac99d_ed15_4d47_9efd_b85bf97f4e6a</id>
+      <id>2017_07_17_Summer_Fixed_Wing_542bcf11_e43e_42dc_85d5_623aa488a934</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2017_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2017-07-17 Summer Fixed-Wing</layername>
       <srs>
@@ -1293,7 +1293,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{4dac7492-b514-446d-bd53-63ef24054c4d}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{8238a063-01b9-4691-8012-a1ae4255de86}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -1305,7 +1305,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="145,82,45,255,rgb:0.5686275,0.3215686,0.1764706,1"/>
+                <Option name="line_color" type="QString" value="125,139,143,255,rgb:0.4901961,0.5450981,0.5607843,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -1342,10 +1342,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{1d6e74e8-0d89-4e0b-b236-6cdeeeef932c}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{26d08470-87ac-455f-9f32-5d23ba0d40f2}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="145,82,45,255,rgb:0.5686275,0.3215686,0.1764706,1"/>
+                <Option name="color" type="QString" value="125,139,143,255,rgb:0.4901961,0.5450981,0.5607843,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -1416,7 +1416,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2018_06_26_Summer_Fixed_Wing_7f660e4f_242f_42fb_96d8_ae0b0aa73692</id>
+      <id>2018_06_26_Summer_Fixed_Wing_2a66c070_d00c_4a09_98ae_8dd844cddbd0</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2018_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2018-06-26 Summer Fixed-Wing</layername>
       <srs>
@@ -1494,7 +1494,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{8bb47b77-04e9-4dfa-a098-534ff52072b6}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{b4d399b2-1955-4847-aa15-b07621e2f025}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -1506,7 +1506,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="125,139,143,255,rgb:0.4901961,0.5450981,0.5607843,1"/>
+                <Option name="line_color" type="QString" value="145,82,45,255,rgb:0.5686275,0.3215686,0.1764706,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -1543,10 +1543,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{ff1653ff-2301-48de-a9a2-70296e189734}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{6df67728-c713-434e-9baf-7c2ab0364d7a}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="125,139,143,255,rgb:0.4901961,0.5450981,0.5607843,1"/>
+                <Option name="color" type="QString" value="145,82,45,255,rgb:0.5686275,0.3215686,0.1764706,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -1617,7 +1617,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2020_06_22_Summer_Fixed_Wing_e48e953d_ecc0_4d5a_836e_fee8cb025310</id>
+      <id>2020_06_22_Summer_Fixed_Wing_b480ace2_04d9_4213_ad0d_7676284593b8</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2020_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2020-06-22 Summer Fixed-Wing</layername>
       <srs>
@@ -1695,7 +1695,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{b8d1c9fc-d691-4e9d-8771-c00d7c8970d5}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{b8044298-4ccb-4e55-bc5d-577ddca49b17}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -1707,7 +1707,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="133,182,111,255,rgb:0.5215687,0.7137255,0.4352941,1"/>
+                <Option name="line_color" type="QString" value="190,178,151,255,rgb:0.7450981,0.6980392,0.5921569,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -1744,10 +1744,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{7b8e9293-095b-40d9-8bf9-4e218bc798a5}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{70dbd48d-4b02-43d1-9123-1deed5046ab4}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="133,182,111,255,rgb:0.5215687,0.7137255,0.4352941,1"/>
+                <Option name="color" type="QString" value="190,178,151,255,rgb:0.7450981,0.6980392,0.5921569,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -1818,7 +1818,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2021_06_29_Summer_Fixed_Wing_dead9c61_7feb_4f9b_bbb8_3312699455ff</id>
+      <id>2021_06_29_Summer_Fixed_Wing_5da804d9_adab_4591_9ba2_db3ab1da2ca1</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2021_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2021-06-29 Summer Fixed-Wing</layername>
       <srs>
@@ -1896,7 +1896,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{d073f254-7b73-4b28-91f1-96e85c3a8a62}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{a3f770f0-d3a4-453b-9170-bc1b45dc1a1a}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -1908,7 +1908,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="164,113,88,255,rgb:0.6431373,0.4431373,0.345098,1"/>
+                <Option name="line_color" type="QString" value="196,60,57,255,rgb:0.7686275,0.2352941,0.2235294,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -1945,10 +1945,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{7de93b51-daa2-4082-9f91-4341726a2467}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{67f02461-8f8f-403f-a041-2d06dfa95962}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="164,113,88,255,rgb:0.6431373,0.4431373,0.345098,1"/>
+                <Option name="color" type="QString" value="196,60,57,255,rgb:0.7686275,0.2352941,0.2235294,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -2019,7 +2019,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2022_07_03_Summer_Fixed_Wing_67e26912_9c58_48ee_a263_d6e4f6628f38</id>
+      <id>2022_07_03_Summer_Fixed_Wing_fcfb8281_4162_407f_8082_d5e599917f34</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2022_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2022-07-03 Summer Fixed-Wing</layername>
       <srs>
@@ -2097,7 +2097,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{2f085333-750a-472e-b31e-507e98ece220}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{1ed3548b-dcf6-44ac-812f-60a82eb6533d}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -2109,7 +2109,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="213,180,60,255,rgb:0.8352941,0.7058824,0.2352941,1"/>
+                <Option name="line_color" type="QString" value="229,182,54,255,rgb:0.8980392,0.7137255,0.2117647,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -2146,10 +2146,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{e78867db-a18c-4279-856a-5cd43915698b}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{44b0ffdc-6b68-4c66-8f1b-71f94c07c30f}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="213,180,60,255,rgb:0.8352941,0.7058824,0.2352941,1"/>
+                <Option name="color" type="QString" value="229,182,54,255,rgb:0.8980392,0.7137255,0.2117647,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -2220,7 +2220,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2023_07_06_Summer_Fixed_Wing_ff463457_5b34_4fb9_8381_9e9681d5bb60</id>
+      <id>2023_07_06_Summer_Fixed_Wing_093d3ac5_b353_4e10_84f9_eb0fcb0e7432</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2023_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2023-07-06 Summer Fixed-Wing</layername>
       <srs>
@@ -2298,7 +2298,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{52474499-b308-44de-8395-5c3a874574bd}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{ff2a1f2c-5724-4ec5-8d97-e2f5748cf4b2}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -2310,7 +2310,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078432,0.4352941,1"/>
+                <Option name="line_color" type="QString" value="225,89,137,255,rgb:0.8823529,0.3490196,0.5372549,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -2347,10 +2347,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{d1e60b4e-65cd-43dc-9add-8599d13f5ce3}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{48b0df53-cb35-4cff-9483-792eeef1e698}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078432,0.4352941,1"/>
+                <Option name="color" type="QString" value="225,89,137,255,rgb:0.8823529,0.3490196,0.5372549,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -2421,7 +2421,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2024_06_25_Summer_Drone_5479ac11_23f8_4ccc_80f3_0ea13686904c</id>
+      <id>2024_06_25_Summer_Drone_39a5672a_1a12_4c70_86ca_7a373270a829</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2024_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2</datasource>
       <layername>2024-06-25 Summer Drone</layername>
       <srs>
@@ -2499,7 +2499,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{c12d1a1f-e772-4359-814b-c5de98967238}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{118e699b-c825-433d-82f8-8d3e98ffe285}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -2511,7 +2511,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
+                <Option name="line_color" type="QString" value="190,207,80,255,rgb:0.7450981,0.8117647,0.3137255,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -2548,10 +2548,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{e95626d9-3f22-4c9e-890b-95d7a4a6f956}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{3494cda9-4335-4973-a98e-72c1121a3964}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
+                <Option name="color" type="QString" value="190,207,80,255,rgb:0.7450981,0.8117647,0.3137255,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -2622,7 +2622,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2024_08_01_Summer_Fixed_Wing_591365d8_a302_49bb_9585_cd3d60c7f081</id>
+      <id>2024_08_01_Summer_Fixed_Wing_4090c6fb_014d_47d2_a525_6d57c0b51562</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/fixed_wing/cogs/clean/2024_4band/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=19&amp;tilePixelRatio=2</datasource>
       <layername>2024-08-01 Summer Fixed-Wing</layername>
       <srs>
@@ -2700,7 +2700,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{1efe7001-2315-4bf2-b918-a3a727146144}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{cab36699-7fd9-4b43-ac94-9de48fa02d86}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -2712,7 +2712,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="line_color" type="QString" value="152,125,183,255,rgb:0.5960785,0.4901961,0.7176471,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -2749,10 +2749,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{8aaf8279-efd2-48b6-87ff-439d3851a492}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{c96222c7-9568-4bbc-bc7f-79bab2fb101a}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="color" type="QString" value="152,125,183,255,rgb:0.5960785,0.4901961,0.7176471,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -2823,7 +2823,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2025_05_02_Spring_Drone_83b1a9c3_15dc_4c85_8d3b_46455da25c49</id>
+      <id>2025_05_02_Spring_Drone_efc5bf48_fbfc_42b5_8d7b_f0b0845e1c90</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/spring/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2</datasource>
       <layername>2025-05-02 Spring Drone</layername>
       <srs>
@@ -2901,7 +2901,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{63efcda3-91c0-41fa-ad7e-f81e57e5686b}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{a74259e8-0cf3-43dd-ba83-cb27ed3cbaac}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -2913,7 +2913,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
+                <Option name="line_color" type="QString" value="231,113,72,255,rgb:0.9058824,0.4431373,0.282353,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -2950,10 +2950,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{50252bb4-af47-44e0-b6b3-f9cb7055c848}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{58ed3eb2-20d7-4c39-8d4a-ed608f71127c}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
+                <Option name="color" type="QString" value="231,113,72,255,rgb:0.9058824,0.4431373,0.282353,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -3024,7 +3024,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2025_07_01_Summer_Drone_ee1be274_f733_42c6_b156_d407573a5a14</id>
+      <id>2025_07_01_Summer_Drone_8962f514_5d24_4e0e_88df_dc27756948a4</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/summer/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2</datasource>
       <layername>2025-07-01 Summer Drone</layername>
       <srs>
@@ -3102,7 +3102,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{c7d3afe1-6fa9-487a-b3a8-0c7f4f961f00}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{3570728e-f0d6-4a8f-abdc-26b3f3fbfd77}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -3114,7 +3114,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="255,158,23,255,rgb:1,0.6196079,0.0901961,1"/>
+                <Option name="line_color" type="QString" value="183,72,75,255,rgb:0.7176471,0.282353,0.2941177,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -3151,10 +3151,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{231e0294-293b-4879-a468-38d741d713c8}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{d8d6a375-96c7-4fc6-9cf7-b7a41f1f396d}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,158,23,255,rgb:1,0.6196079,0.0901961,1"/>
+                <Option name="color" type="QString" value="183,72,75,255,rgb:0.7176471,0.282353,0.2941177,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -3225,7 +3225,7 @@
         <xmax>180</xmax>
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
-      <id>2025_10_08_Fall_Drone_fc937e3d_4ad2_4dcc_b1ba_0e24718da62f</id>
+      <id>2025_10_08_Fall_Drone_6e1a6a95_aa5c_4640_a154_7ea54f3ad083</id>
       <datasource>type=xyz&amp;url=https://tiles-251613763089.us-west1.run.app/surveys/2025_front_country/fall/processing/drone_deploy/visible/%7Bz%7D/%7Bx%7D/%7By%7D.webp&amp;zmin=8&amp;zmax=21&amp;tilePixelRatio=2</datasource>
       <layername>2025-10-08 Fall Drone</layername>
       <srs>
@@ -3303,7 +3303,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{a3a23ce5-6c3f-4f2d-ae34-f14c4fbca316}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{2ef0b4ed-0f57-4233-989c-15c029505eaa}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -3315,7 +3315,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="183,72,75,255,rgb:0.7176471,0.282353,0.2941177,1"/>
+                <Option name="line_color" type="QString" value="255,158,23,255,rgb:1,0.6196079,0.0901961,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -3352,10 +3352,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{63537777-fe99-4bd6-b59e-fb2a35e140cd}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{685cbd13-0b24-4e9a-946c-64f87e52f486}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="183,72,75,255,rgb:0.7176471,0.282353,0.2941177,1"/>
+                <Option name="color" type="QString" value="255,158,23,255,rgb:1,0.6196079,0.0901961,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -3415,22 +3415,22 @@
     </maplayer>
   </projectlayers>
   <layerorder>
-    <layer id="2011_09_03_Fall_Fixed_Wing_7680dbfe_2b89_4cdd_8b06_19e39d14f47b"/>
-    <layer id="2013_07_15_Summer_Fixed_Wing_988e2a7d_d36b_4d00_b02c_b4e83a75c0b1"/>
-    <layer id="2014_07_25_Summer_Fixed_Wing_4b3cf4f7_4996_447f_b6a9_48c58c8eb5c7"/>
-    <layer id="2015_06_26_Summer_Fixed_Wing_c7c8bd31_3d60_4b9e_8eb2_741b1898d5f5"/>
-    <layer id="2016_06_22_Summer_Fixed_Wing_87ec1ba3_a8b6_49a9_ba6d_82d0aa4a7fb2"/>
-    <layer id="2017_07_17_Summer_Fixed_Wing_d1aac99d_ed15_4d47_9efd_b85bf97f4e6a"/>
-    <layer id="2018_06_26_Summer_Fixed_Wing_7f660e4f_242f_42fb_96d8_ae0b0aa73692"/>
-    <layer id="2020_06_22_Summer_Fixed_Wing_e48e953d_ecc0_4d5a_836e_fee8cb025310"/>
-    <layer id="2021_06_29_Summer_Fixed_Wing_dead9c61_7feb_4f9b_bbb8_3312699455ff"/>
-    <layer id="2022_07_03_Summer_Fixed_Wing_67e26912_9c58_48ee_a263_d6e4f6628f38"/>
-    <layer id="2023_07_06_Summer_Fixed_Wing_ff463457_5b34_4fb9_8381_9e9681d5bb60"/>
-    <layer id="2024_06_25_Summer_Drone_5479ac11_23f8_4ccc_80f3_0ea13686904c"/>
-    <layer id="2024_08_01_Summer_Fixed_Wing_591365d8_a302_49bb_9585_cd3d60c7f081"/>
-    <layer id="2025_05_02_Spring_Drone_83b1a9c3_15dc_4c85_8d3b_46455da25c49"/>
-    <layer id="2025_07_01_Summer_Drone_ee1be274_f733_42c6_b156_d407573a5a14"/>
-    <layer id="2025_10_08_Fall_Drone_fc937e3d_4ad2_4dcc_b1ba_0e24718da62f"/>
+    <layer id="2011_09_03_Fall_Fixed_Wing_3e737e89_f0a1_46e9_8ba4_7ba43c29a324"/>
+    <layer id="2013_07_15_Summer_Fixed_Wing_6ab3f70f_11a8_4434_ae59_8b3d8523a0da"/>
+    <layer id="2014_07_25_Summer_Fixed_Wing_0e9813e6_88a6_4246_b993_92cbfbb9edff"/>
+    <layer id="2015_06_26_Summer_Fixed_Wing_729021ba_37f0_4994_9be0_58ab73e93537"/>
+    <layer id="2016_06_22_Summer_Fixed_Wing_2c6a0324_ad7b_43cc_bcd6_3ab8b0807f17"/>
+    <layer id="2017_07_17_Summer_Fixed_Wing_542bcf11_e43e_42dc_85d5_623aa488a934"/>
+    <layer id="2018_06_26_Summer_Fixed_Wing_2a66c070_d00c_4a09_98ae_8dd844cddbd0"/>
+    <layer id="2020_06_22_Summer_Fixed_Wing_b480ace2_04d9_4213_ad0d_7676284593b8"/>
+    <layer id="2021_06_29_Summer_Fixed_Wing_5da804d9_adab_4591_9ba2_db3ab1da2ca1"/>
+    <layer id="2022_07_03_Summer_Fixed_Wing_fcfb8281_4162_407f_8082_d5e599917f34"/>
+    <layer id="2023_07_06_Summer_Fixed_Wing_093d3ac5_b353_4e10_84f9_eb0fcb0e7432"/>
+    <layer id="2024_06_25_Summer_Drone_39a5672a_1a12_4c70_86ca_7a373270a829"/>
+    <layer id="2024_08_01_Summer_Fixed_Wing_4090c6fb_014d_47d2_a525_6d57c0b51562"/>
+    <layer id="2025_05_02_Spring_Drone_efc5bf48_fbfc_42b5_8d7b_f0b0845e1c90"/>
+    <layer id="2025_07_01_Summer_Drone_8962f514_5d24_4e0e_88df_dc27756948a4"/>
+    <layer id="2025_10_08_Fall_Drone_6e1a6a95_aa5c_4640_a154_7ea54f3ad083"/>
   </layerorder>
   <labelEngineSettings/>
   <properties name="properties">
@@ -3494,10 +3494,10 @@
     <abstract></abstract>
     <links/>
     <dates>
-      <date type="Created" value="2026-07-28T11:28:48"/>
+      <date type="Created" value="2026-07-28T11:34:52"/>
     </dates>
     <author>Kyle Doherty</author>
-    <creation>2026-07-28T11:28:48</creation>
+    <creation>2026-07-28T11:34:52</creation>
   </projectMetadata>
   <Annotations/>
   <Layouts/>
@@ -3508,7 +3508,7 @@
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent xmax="-12686946.33329164050519466" xmin="-12696405.74041764624416828" ymax="5898896.90205023158341646" ymin="5886976.19407739862799644">
+    <DefaultViewExtent xmax="-12678750.28265414945781231" xmin="-12696750.28265414945781231" ymax="5906139.63366276025772095" ymin="5888139.63366276025772095">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -3522,7 +3522,7 @@
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" colorModel="Rgb" iccProfileId="attachment:///" projectStyleId="attachment:///fylYPe_styles.db">
+  <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" colorModel="Rgb" iccProfileId="attachment:///" projectStyleId="attachment:///TZhiNb_styles.db">
     <databases/>
   </ProjectStyleSettings>
   <ProjectTimeSettings cumulativeTemporalRange="0" frameRate="1" timeStep="1" timeStepUnit="h" totalMovieFrames="100"/>
