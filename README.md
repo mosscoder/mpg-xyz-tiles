@@ -9,14 +9,16 @@ no installs: download a project file and open it.
 | Platform | File |
 |---|---|
 | **QGIS (desktop)** | [mpg_ranch_imagery.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/mpg_ranch_imagery.qgs) — right-click → save, open in QGIS |
-| **QField (phone)** | [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) — import instructions below |
+| **QField (phone)** | [mpg_ranch_imagery_qfield.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.qgs) — import instructions below |
 
 ## QField setup (iPhone & Android)
 
-1. Download [mpg_ranch_imagery_qfield.zip](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.zip) on the phone.
+1. Copy this link:
+
+       https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.qgs
+
 2. In QField: **Local projects and datasets** → **hamburger menu (⋯)** →
-   **Import Project From Zip** → select **mpg_ranch_imagery_qfield.zip** →
-   open **mpg_ranch_imagery_qfield**.
+   **Import URL** → paste the link → open **mpg_ranch_imagery_qfield**.
 
 ## Using the projects
 
@@ -46,7 +48,7 @@ tile resolution **512 px** (`tilePixelRatio=2`).
 
 - New season published → `dev/refresh_from_captures.py` (QGIS project) and
   `dev/refresh_qfield.py` (QField project) regenerate from the viewer app's
-  `captures.json`; re-zip `qfield/` and commit.
+  `captures.json`; commit.
 - `archive_plugin/` holds the retired `pmtiles_raster` QGIS plugin (a native
   raster-PMTiles reader; replaced by this XYZ approach). Its README documents
   the QGIS 4 SIP pitfalls for posterity.
