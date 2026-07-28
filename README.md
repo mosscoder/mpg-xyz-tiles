@@ -50,8 +50,5 @@ tile resolution **512 px** (`tilePixelRatio=2`).
   `dev/refresh_qfield.py` (QField project) regenerate from the viewer app's
   `captures.json`; commit and push, then refresh the click-to-download
   assets: `gh release upload v1 mpg_ranch_imagery.qgs qfield/mpg_ranch_qfield.qgs --clobber`
-- `archive_plugin/` holds the retired `pmtiles_raster` QGIS plugin (a native
-  raster-PMTiles reader; replaced by this XYZ approach). Its README documents
-  the QGIS 4 SIP pitfalls for posterity.
 - Everything here retires once QGIS/QField ship GDAL ≥ 3.14, which reads
   raster PMTiles natively.
