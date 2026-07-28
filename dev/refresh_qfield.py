@@ -20,7 +20,7 @@ from qgis.core import (
 )
 
 CAPTURES_JSON = '/Users/kdoherty/front_country_surveys/viewer_app/dist/captures.json'
-OUT = '/Users/kdoherty/mpg_xyz_tiles/qfield/mpg_ranch_imagery_qfield.qgs'
+OUT = '/Users/kdoherty/mpg_xyz_tiles/qfield/mpg_ranch_qfield.qgs'
 TILE_BASE = 'https://tiles-251613763089.us-west1.run.app'
 BUCKET_PREFIX = 'https://storage.googleapis.com/mpg-aerial-survey/'
 DEFAULT_ON = '2025-summer'

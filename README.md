@@ -9,16 +9,16 @@ no installs: download a project file and open it.
 | Platform | File |
 |---|---|
 | **QGIS (desktop)** | [mpg_ranch_imagery.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/mpg_ranch_imagery.qgs) — right-click → save, open in QGIS |
-| **QField (phone)** | [mpg_ranch_imagery_qfield.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.qgs) — import instructions below |
+| **QField (phone)** | [mpg_ranch_qfield.qgs](https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_qfield.qgs) — import instructions below |
 
 ## QField setup (iPhone & Android)
 
 1. Copy this link:
 
-       https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_imagery_qfield.qgs
+       https://raw.githubusercontent.com/mosscoder/mpg-xyz-tiles/main/qfield/mpg_ranch_qfield.qgs
 
 2. In QField: **Local projects and datasets** → **hamburger menu (⋯)** →
-   **Import URL** → paste the link → open **mpg_ranch_imagery_qfield**.
+   **Import URL** → paste the link → open **mpg_ranch_qfield**.
 
 ## Using the projects
 
